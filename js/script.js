@@ -83,9 +83,6 @@ start.addEventListener("click", function() {
     const bombs = generateBombs(16, numberOfCells);
     console.log(bombs);
 
-    bombsCellsArray.push(bombs);
-    console.log(bombsCellsArray);
-
 })
 
 // FUNZIONI
