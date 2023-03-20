@@ -48,6 +48,7 @@ main {
     display: flex;
     justify-content: center;
     align-items: center;
+    padding: 10px;
     font-size: 1.2rem;
     width: calc(500px / 10);
     height: calc(500px / 10);
@@ -58,8 +59,13 @@ main {
     background-color: aqua;
 }
 
+.red {
+    background-color: red;
+}
+
 /* FOOTER */
 footer {
     padding: 10px;
     height: 50px;
 }
+
