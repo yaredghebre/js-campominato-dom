@@ -19,6 +19,28 @@ header {
     justify-content: space-between;
 }
 
+h1 {
+    padding: 5px;
+    border-radius: 4px;
+    box-shadow: 7px 7px 7px 0 rgba(0, 0, 0, 0.84);
+}
+
+h1:hover {
+    animation: blur .3s ease-in-out alternate;
+}
+
+@keyframes blur {
+    0% {
+        text-shadow: 0 0 5px white, 0 0 10px white, 0 0 15px white, 0 0 20px red, 0 0 25px red, 0 0 30px red;
+        color: transparent;
+    }
+
+    100% {
+        text-shadow: none;
+        color: red;
+    }
+}
+
 /* MAIN */
 main {
     background-color: rgba(0, 0, 0, 0.847);
@@ -36,6 +58,12 @@ main {
     display: flex;
     justify-content: center;
     align-items: center;
+    color: goldenrod;
+}
+
+h2 {
+    text-align: center;
+    margin: 20px;
     color: goldenrod;
 }
 
